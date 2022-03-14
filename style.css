@@ -1,0 +1,132 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  background-image: url("../images/background.svg");
+  background-size: 50px 50px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.full {
+  margin: auto;
+  width: 800px;
+  height: auto;
+  background-color: white;
+}
+header {
+  width: 800px;
+  height: 125px;
+  background-color: grey;
+  margin: 0;
+}
+nav {
+  float:left;
+  width: 100px;
+  height:auto;
+  text-align: right;
+  padding: 20px 0;
+}
+
+
+.navigation {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: dodgerblue;
+  padding-right: 5px;
+}
+.navigation:hover {
+  color: orange;
+  border-right: 2px solid orange;
+}
+
+main {
+  width: 700px;
+  float: right;
+  align-content: center;
+  padding: 20px 0;
+}
+footer {
+  height: auto;
+  clear: both;
+  background-color: #D9F4FA;
+  border-top: 1px dodgerblue solid;
+  padding: 10px 5px 5px 5px;
+}
+.contact {
+  padding: 10px;
+}
+.icon {
+  padding: 10px;
+}
+.icon:hover {
+  opacity: .4;
+}
+article {
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.blogpost {
+  max-width: 100
+}
+.blogpic {
+  float: left;
+  margin-right: 10px;
+}
+h1 {
+  padding: 10px;
+  color: dodgerblue;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+figcaption {
+  font-weight: lighter;
+  font-style: italic;
+  color: coral;
+}
+p {
+  text-align: justify;
+  padding: 5px 10px;
+  line-height: 1.4em;
+  color: steelblue;
+}
+h2 {
+  color: dodgerblue;
+}
+h3 {
+  padding-top: 20px;
+  color: dodgerblue;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  padding-left: 50px;
+  color: steelblue;
+}
+.gallery {
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  padding: 0;
+}
+.artl {
+  width: 350px;
+  height: 350px;
+  float: left
+}.artr {
+  width: 350px;
+  height: 350px;
+  float: right;
+}
+.galtext {
+  text-align: center;
+  padding: 75px 10px;
+}
+hr {
+  border: 1px solid dodgerblue;
+}
